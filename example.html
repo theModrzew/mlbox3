@@ -4,33 +4,54 @@
     <meta charset="UTF-8">
     <title>mlbox 3</title>
     <script src="mlbox.js"></script>
+    <style>
+        img {
+            max-width: 400px;
+            max-height: 300px;
+        }
+    </style>
 </head>
 
 <body>
-    <ul data-mlbox="gallery">
+    <ul data-mlbox="gallery" data-mlbox-set="nice pics">
         <li>
             <img alt="image1" src="">
         </li>
         <li>
-            <a>
-                <img alt="image2" src="">
+            <a href="http://www.onet.pl/">
+                <img alt="image2" src="example/backlit-bokeh-cap-1480690.jpg" title="https://www.pexels.com/photo/silhouette-of-man-1480690/">
             </a>
         </li>
         <li>
             Just a text
             <p>This one is in a <a href="#">paragraph</a><br>No image for you!</p>
         </li>
-
+        <li>
+            <a href="http://www.onet.pl/">
+                <img alt="image3" src="" title="">
+            </a>
+        </li>
     </ul>
 
-    <img alt="image3" src="" data-mlbox="">
+    <img alt="image4" src="" data-mlbox title="">
+    <a data-mlbox>
+        <img alt="image5" src="" title="">
+    </a>
+    <a>
+        <img alt="image6" src="" data-mlbox title="">
+    </a>
+    <a>
+        <img alt="image7" src="close-up-colors-environment-1474657.jpg" data-mlbox title="https://www.pexels.com/photo/person-holding-brown-leaf-1474657/">
+    </a>
+    <a>
+        <img alt="image8" src="" data-mlbox title="">
+    </a>
+    <a>
+        <img alt="image9" src="" data-mlbox title="">
+    </a>
 
-    <a data-mlbox=""><img alt="image4" src=""></a>
-
-    <a><img alt="image5" src="" data-mlbox=""></a>
-
-    <a><img alt="image6" src="" data-mlbox="custom[2]"></a>
-    <a><img alt="image7" src="" data-mlbox="custom[3]"></a>
-    <a><img alt="image8" src="" data-mlbox="custom[1]"></a>
+    <footer>
+        <p>All example images are ROYALTY-FREE downloaded from <a href="https://www.pexels.com/" rel="external">https://www.pexels.com/</a>.</p>
+    </footer>
 </body>
 </html>
